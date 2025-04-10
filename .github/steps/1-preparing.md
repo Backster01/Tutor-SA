@@ -1,8 +1,8 @@
 ## Step 1: Hello GitHub Copilot agent mode
 
-Welcome to your **"Build applications with GitHub Copilot agent mode"** exercise! :robot:
+Welcome to your **"Build applications with GitHub Copilot agent mode"** tutoring! :robot:
 
-In this exercise, you will be using GitHub Copilot agent mode to build an application that tracks your fitness goals and progress. 🏋️‍♂️🏃‍♀️💪
+In this exercise, you will be using GitHub Copilot agent mode to build an application that tracks your studing and assesment progress.
 
 ### What is GitHub Copilot agent mode?
 
@@ -25,14 +25,14 @@ Monitors the correctness of code edits and terminal command output and iterates 
    - The free tier of Codespaces that comes with all GitHub accounts is fine, assuming you still have minutes available.
    - The default Codespace settings are fine.
 
-1. Confirm the **Repository** field is your copy of the exercise, not the original, then click the green **Create Codespace** button.
+1. Confirm the **Repository** field is your copy of the tutoring, not the original, then click the green **Create Codespace** button.
 
    - ✅ Your copy: `/{{{full_repo_name}}}`
    - ❌ Original: `/skills/build-applications-w-copilot-agent-mode`
 
 1. Wait a moment for Visual Studio Code to load.
     1. You may need to switch to VS Code insiders edition in the codespace since agent mode was released on 4/4 as a phased rollout to users.
-   <img width="323" alt="vscode-insiders-light" src="https://github.com/user-attachments/assets/8ff8868b-9120-4055-8449-175e85552ba2" />
+       ![switch-to-insiders-version-light](https://github.com/user-attachments/assets/457f60eb-8c20-48d8-83b3-533fc1d93f88)
 
 1. Before we continue let's take a moment to familiarize ourselves with the project folder.
 
@@ -42,7 +42,7 @@ Monitors the correctness of code edits and terminal command output and iterates 
 
 1. At the top of VS Code, locate and click the Copilot icon to open a Copilot Chat panel.
 
-   <img width="150" alt="image" src="https://github.com/user-attachments/assets/5e64db46-95cb-415d-badc-b6b8677f10c1" />
+<img width="150" alt="image" src="https://github.com/user-attachments/assets/5e64db46-95cb-415d-badc-b6b8677f10c1" />
 
 1. If this is your first, time using GitHub Copilot, you will have to accept the usage terms to continue.
     - Click the **Accept** button to continue.
@@ -58,31 +58,24 @@ Great work! Now that we are familiar with the app and we know it works, let's as
 1. Open the GitHub Copilot Chat window if not already open. 
 2. Copy and paste the following prompt in the GitHub Copilot Chat and select the **Agent** instead of **Ask** or **Edit** from the drop down where you are inserting the prompt.
 
-   <img src="https://github.com/user-attachments/assets/e172f5c0-bc2a-45a9-a301-9af8bfbd6a2e" width=30% height=30%>
-
+<img src="https://github.com/user-attachments/assets/e172f5c0-bc2a-45a9-a301-9af8bfbd6a2e" width=30% height=30%>
 
 > 🪧 **Note:** 
 - Do not change the model from GPT-4o this will be an optional activity at the end of the course.
 - Keep in mind that the Copilot agent mode is conversational so it may ask you questions and you can ask it questions too.
 - Wait a moment for the Copilot to respond and press the continue button to execute commands presented by Copilot agent mode.
 
-1. Let's ask Copilot agent mode to help us remember the command and create the branch `build-octofit-app` and publishing it
+1. Let's ask Copilot agent mode to help us remember the command and create the branch `build-tutoring-sa-app` and publishing it
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=flat-square&logo=github%20copilot&labelColor=512a97&color=ecd8ff)
    >
    > ```prompt
-   > Hey copilot, how can I create and publish a new Git branch called build-octofit-app?
+   > Hey copilot, how can I create and publish a new Git branch called build-tutoring-sa-app?
    > ```
-
-
-   Copilot agent mode will respond and ask if you if you want to enable it to run the command. Respond with **Yes**</br>
-
-   <img src=https://github.com/user-attachments/assets/8dafaa5f-80db-41ea-a189-b5d603c11d63 width=40% height=40%>
-
 
 1. Now that we are happy with the command, press the `Continue` button to let Copilot agent mode run it for us. No need to copy and paste!
 
-1. After a moment, look in the VS Code lower status bar, on the left, to see the active branch. It should now say `build-octofit-app`. If so, you are all done with this step!
+1. After a moment, look in the VS Code lower status bar, on the left, to see the active branch. It should now say `build-tutoring-sa-app`. If so, you are all done with this step!
 
 1. Now that your branch is pushed to GitHub, Mona should already be busy checking your work. Give her a moment and keep watch in the comments. You will see her respond with progress info and the next lesson.
 
@@ -91,7 +84,7 @@ Great work! Now that we are familiar with the app and we know it works, let's as
 
 If you don't get feedback, here are some things to check:
 
-- Make sure your created the branch with the exact name `build-octofit-app`. No prefixes or suffixes.
+- Make sure your created the branch with the exact name `build-tutoring-sa-app`. No prefixes or suffixes.
 - Make sure the branch was indeed published to your repository.
 
 </details>

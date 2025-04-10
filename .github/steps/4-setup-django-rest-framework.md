@@ -7,7 +7,7 @@ In this step, we will accomplish the following:
 - Test the API using curl.
 
 1. Open all files in the `docs` folder and keep this file open in the editor throughout this exercise.
-    1.  agent mode uses `mona-high-school-fitness-tracker.md` and `octofit_story.md` as a reference to create the application
+    1.  agent mode uses `tutor-sa.md` and `tutor-sa_story.md` as a reference to create the application
 2. Copy and paste the following prompt(s) in the GitHub Copilot Chat and select the "Agent" instead of "Ask" or "Edit" from the drop down where you are inserting the prompt.
 
 > 🪧 **Note:** 
@@ -27,10 +27,10 @@ In this step, we will accomplish the following:
 > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=flat-square&logo=github%20copilot&labelColor=512a97&color=ecd8ff)
 >
 > ```prompt
->Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Mergington's high school's app. Let's setup codespace for the URL, start the server via VS Code launch.json, and test the API.
+>Based on the example tutor sa app in the docs/tutor-sa.md file and use Tutoring SA as the name for school's app. Let's setup codespace for the URL, start the server via VS Code launch.json, and test the API.
 > 
 > 1. Activate the Python virtual environment.
-> 2. Update #file:octofit-tracker/backend/octofit_tracker/views.py to replace the return for the REST API URL endpoints with the codespace URL https://[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev for Django and avoid certificate HTTPS issues.
+> 2. Update #file:tutoring-sa/backend/tutoring-sa/views.py to replace the return for the REST API URL endpoints with the codespace URL https://[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev for Django and avoid certificate HTTPS issues.
 > 3. Make sure the Django backend works on [REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev and localhost:8000.
 > 4. Test the API endpoints using curl command.
 > 5. Allow host access to codespace URL and localhost:8000.
@@ -51,7 +51,7 @@ Now, let's actually try running the Django application! In the left sidebar, sel
 - You can get the codespace name by running the following command in the terminal: `echo $CODESPACE_NAME`.
 
 1. Now that we have updated our Django product to include our codespace name for the URL endpoint,
-   let's check our changes in to our `build-octofit-app` branch.
+   let's check our changes in to our `build-tutoring-sa-app` branch.
 
 1. With our new changes complete, please **commit** and **push** the changes to GitHub.
 
@@ -62,9 +62,9 @@ Now, let's actually try running the Django application! In the left sidebar, sel
 
 If you don't get feedback, here are some things to check:
 
-- Make sure your commit changes were made for the following files to the branch `build-octofit-app` and pushed/synchronized to GitHub:
-  - `octofit-tracker/backend/octofit_tracker/settings.py`
-  - `octofit-tracker/backend/octofit_tracker/views.py`
+- Make sure your commit changes were made for the following files to the branch `build-tutoring-sa-app` and pushed/synchronized to GitHub:
+  - `tutoring-sa/backend/tutoring-sa/settings.py`
+  - `tutoring-sa/backend/tutoring-sa/views.py`
 - If Mona found a mistake, simply make a correction and push your changes again. Mona will check your work as many times as needed.
 
 </details>
