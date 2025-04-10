@@ -3,7 +3,7 @@
     "hostRequirements": {
         "cpus": 4
     },
-    "name": "OctoFit App codespace",
+    "name": "tutoring-sa App codespace",
     "postCreateCommand": "sudo chmod +x ./.devcontainer/post_create.sh && ./.devcontainer/post_create.sh",
     "postStartCommand": "sudo chmod +x ./.devcontainer/post_start.sh && ./.devcontainer/post_start.sh",
     "customizations": {
@@ -22,11 +22,11 @@
     ],
     "portAttributes": {
         "3000": { // React port attributes
-        "label": "octofit-tracker",
+        "label": "tutoring-sa",
         "requireLocalPort": true
       },      
         "8000": { // Django port attributes
-        "label": "octofit-rest-api",
+        "label": "tutoring-sa-rest-api",
         "requireLocalPort": true
         }
     }
