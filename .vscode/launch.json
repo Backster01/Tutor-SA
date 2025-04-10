@@ -5,23 +5,23 @@
       "name": "Launch Django Backend",
       "type": "python",
       "request": "launch",
-      "program": "${workspaceFolder}/octofit-tracker/backend/manage.py",
+      "program": "${workspaceFolder}/tutoring-sa/backend/manage.py",
       "args": ["runserver", "0.0.0.0:8000"],
       "django": true,
       "justMyCode": true,
-      "python": "${workspaceFolder}/octofit-tracker/backend/venv/bin/python",
+      "python": "${workspaceFolder}/tutoring-sa/backend/venv/bin/python",
       "env": {
-        "PYTHONPATH": "${workspaceFolder}/octofit-tracker/backend/venv/bin/python",
-        "VIRTUAL_ENV": "${workspaceFolder}/octofit-tracker/backend/venv",
-        "PATH": "${workspaceFolder}/octofit-tracker/backend/venv/bin:${env:PATH}"
+        "PYTHONPATH": "${workspaceFolder}/tutoring-sa/backend/venv/bin/python",
+        "VIRTUAL_ENV": "${workspaceFolder}/tutoring-sa/backend/venv",
+        "PATH": "${workspaceFolder}/tutoring-sa/backend/venv/bin:${env:PATH}"
       }
     },
     {
       "name": "Launch React Frontend",
       "type": "node",
       "request": "launch",
-      "program": "${workspaceFolder}/octofit-tracker/frontend/node_modules/react-scripts/scripts/start.js",
-      "cwd": "${workspaceFolder}/octofit-tracker/frontend",
+      "program": "${workspaceFolder}/tutoring-sa/frontend/node_modules/react-scripts/scripts/start.js",
+      "cwd": "${workspaceFolder}/tutoring-sa/frontend",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["start"],
       "port": 3000
