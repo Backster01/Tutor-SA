@@ -1,11 +1,11 @@
-name: Step 2 # octofit-tracker application initial setup
+name: Step 2 # tutoring-sa application initial setup
 
 on:
   push:
     branches:
-      - "build-octofit-app"
+      - "build-tutoring-sa-app"
     paths:
-      - "octofit-tracker/backend/requirements.txt"
+      - "tutoring-sa/backend/requirements.txt"
 
 permissions:
   contents: read
@@ -48,15 +48,15 @@ jobs:
       # START: Check practical exercise
 
       # Search for the comment about registration validation
-      - name: Check file and contents of 'octofit-tracker/backend/requirements.txt'
+      - name: Check file and contents of 'tutoring-sa/backend/requirements.txt'
         run: |
           # File and expected Python requirement
-          file="octofit-tracker/backend/requirements.txt"
+          file="tutoring-sa/backend/requirements.txt"
           keyphrase="Django==4.1"
 
           # Fail the workflow if the file content is missing
           if ! grep -q "$keyphrase" "$file"; then
-            message="It seems you didn't check in your octofit-tracker/backend/requirements.txt with the Python Django requirement. Please try again."
+            message="It seems you didn't check in your tutoring-sa/backend/requirements.txt with the Python Django requirement. Please try again."
             gh issue comment "$ISSUE_URL" \
               --body "$message" \
               --edit-last
