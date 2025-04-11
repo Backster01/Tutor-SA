@@ -6,15 +6,16 @@
       "type": "python",
       "request": "launch",
       "program": "${workspaceFolder}/tutoring-sa/backend/manage.py",
-      "args": ["runserver", "0.0.0.0:8000"],
+      "args": ["runserver", "0.0.0.0:8001"],
       "django": true,
       "justMyCode": true,
       "python": "${workspaceFolder}/tutoring-sa/backend/venv/bin/python",
       "env": {
-        "PYTHONPATH": "${workspaceFolder}/tutoring-sa/backend/venv/bin/python",
+        "PYTHONPATH": "${workspaceFolder}/tutoring-sa/backend/manage",
         "VIRTUAL_ENV": "${workspaceFolder}/tutoring-sa/backend/venv",
         "PATH": "${workspaceFolder}/tutoring-sa/backend/venv/bin:${env:PATH}"
-      }
+      },
+      "preLaunchTask": "Activate Virtual Environment"
     },
     {
       "name": "Launch React Frontend",
